@@ -19,7 +19,7 @@ const pxtoviewport = require('postcss-px-to-viewport'); // 单位转换
 // JS
 const rollup = require('rollup'); // JS打包工具
 const babel = require('rollup-plugin-babel'); // JS babel
-const commonjs = require('rollup-plugin-babel'); // Common JS
+const commonjs = require('rollup-plugin-commonjs'); // Common JS
 const resolve = require ('rollup-plugin-node-resolve'); // 使 Rollup 支持 NPM 模块
 const uglify = require('rollup-plugin-uglify');
 
